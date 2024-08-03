@@ -1,0 +1,70 @@
+.intro {
+  overflow: hidden;
+  position: relative;
+}
+
+.introduction {
+  height: inherit;
+  background: linear-gradient(150deg, rgb(75, 177, 255), rgb(7, 75, 183));
+  height: calc(100lvh - 6rem);
+  position: relative;
+  z-index: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
+.introduction::before {
+  background: linear-gradient(150deg, rgba(75, 177, 255, 0.466), rgba(7, 74, 183, 0.512));
+  height: 700px;
+  width: 700px;
+  z-index: -1;
+  position: absolute;
+  content: "";
+  right: 0;
+  border-radius: 50% 0 0 50%;
+  transform: translate(50%, 0%) translateZ(-10px);
+}
+
+.introductionContext {
+  max-width: 75em;
+}
+
+.introBigText {
+  font-weight: 600;
+  text-wrap: wrap;
+  font-size: 5rem;
+}
+
+.btnPricing {
+  background-color: lightblue;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.4rem 0.7rem;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.602);
+  text-wrap: nowrap;
+}
+
+.STYLEbtnBookDemo::after {
+  transition: all 0.1s ease-in;
+  content: " 🡢";
+}
+.STYLEbtnBookDemo:hover::after {
+  margin-left: 0.2rem;
+}
+.eloomiBgImg img {
+  position: absolute;
+  right: 0;
+  transform: rotate(12deg);
+  height: 600px;
+}
+
+.waves {
+  position: absolute;
+  bottom: 0;
+}

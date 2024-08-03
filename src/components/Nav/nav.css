@@ -1,13 +1,23 @@
 nav {
+  background-color: rgba(0, 0, 0, 0.538);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.items {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  width: 100vw;
-  height: 4rem;
-  background-color: rgba(0, 0, 0, 0.538);
+  width: 90vw;
+  max-width: 75em;
+  height: 6rem;
   color: white;
 }
+
 .eloomiLogo {
   display: flex;
   align-items: center;
@@ -23,12 +33,16 @@ nav {
 }
 
 .eloomiLogoTop {
-  font-size: x-large;
+  font-size: xx-large;
 }
 .eloomiLogoBottom {
   font-size: xx-small;
+  text-wrap: nowrap;
+  transform: translateY(-8px);
 }
-
+.eloomiLogoBottomBold{
+  font-weight: 600;
+}
 .navMenu {
   display: flex;
   align-items: center;
@@ -64,5 +78,8 @@ nav {
   border: none;
   padding: 0.4rem 0.7rem;
   color: white;
+  font-size: medium;
   font-weight: 600;
+  text-shadow: 0 0 2px black;
+  text-wrap: nowrap;
 }
