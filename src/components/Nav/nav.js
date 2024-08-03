@@ -16,12 +16,12 @@ const Nav = () => {
               </div>
             </div>
             <ul className="navMenu">
-              <li className="navMenuItem">Product<spna class="arrow">&#62;</spna></li>
-              <li className="navMenuItem">Solutions<spna class="arrow">&#62;</spna></li>
+              <li className="navMenuItem">Product<span className="arrow">&#62;</span></li>
+              <li className="navMenuItem">Solutions<span className="arrow">&#62;</span></li>
               <li className="navMenuItem">Customers</li>
               <li className="navMenuItem">Pricing</li>
-              <li className="navMenuItem">Resources<spna class="arrow">&#62;</spna></li>
-              <li className="navMenuItem">Company<spna class="arrow">&#62;</spna></li>
+              <li className="navMenuItem">Resources<span className="arrow">&#62;</span></li>
+              <li className="navMenuItem">Company<span className="arrow">&#62;</span></li>
             </ul>
             <button className="STYLEbtnBookDemo">Book a Demo</button>
         </div>

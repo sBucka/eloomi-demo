@@ -4,67 +4,125 @@
 }
 
 .introduction {
-  height: inherit;
-  background: linear-gradient(150deg, rgb(75, 177, 255), rgb(7, 75, 183));
-  height: calc(100lvh - 6rem);
-  position: relative;
-  z-index: 0;
+  height: 100lvh;
+  max-height: calc(80em - 5rem);
+  width: 100vw;
+  background: linear-gradient(150deg, rgb(20, 164, 252), rgb(21, 115, 221));
   color: white;
   display: flex;
-  flex-direction: column;
-  padding: 1rem;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 0;
 }
 
+/* The cicrcle in background */
 .introduction::before {
-  background: linear-gradient(150deg, rgba(75, 177, 255, 0.466), rgba(7, 74, 183, 0.512));
-  height: 700px;
-  width: 700px;
+  background: linear-gradient(
+    170deg,
+    rgba(43, 219, 246, 0.863) ,
+    rgb(21, 115, 221) 70%
+  );
+  height: 100vh;
+  width: 100vh;
   z-index: -1;
   position: absolute;
   content: "";
   right: 0;
   border-radius: 50% 0 0 50%;
-  transform: translate(50%, 0%) translateZ(-10px);
+  transform: translate(50%, 10%) translateZ(-10px);
 }
+/* ------------------------- */
 
+/* The inroduction text */
 .introductionContext {
+  padding-top: 6rem;
+  height: 100%;
+  width: 90vw;
   max-width: 75em;
+  display: flex;
+  flex-direction: column;
 }
 
 .introBigText {
-  font-weight: 600;
+  font-weight: 900;
   text-wrap: wrap;
-  font-size: 5rem;
+  max-width: 600px;
+  font-size: clamp(3rem, 10vw, 6rem);
+  line-height: 90%;
+}
+.introSmalltext {
+  text-wrap: pretty;
+  max-width: 660px;
+  font-weight: 100;
+  font-size: clamp(1rem, 10vw, 1.3rem);
+  letter-spacing: 2px;
+  padding: 1.5rem 0;
+}
+
+.introBold {
+  font-weight: 600;
+}
+.introBold::before,
+.introBold::after {
+  content: " ";
+}
+
+.introButtons {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem 0;
+  z-index: 10;
 }
 
 .btnPricing {
-  background-color: lightblue;
-  border-radius: 1rem;
-  border: none;
-  padding: 0.4rem 0.7rem;
-  color: white;
-  font-size: medium;
-  font-weight: 600;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.602);
-  text-wrap: nowrap;
+  background-color: rgba(173, 216, 230, 0.471);
 }
 
-.STYLEbtnBookDemo::after {
-  transition: all 0.1s ease-in;
-  content: " 🡢";
+.addArrow::after {
+  transition: all 0.1s ease-in-out;
+  content: "🡢";
+  margin-left: 0.6rem;
+  font-size: 90%;
 }
-.STYLEbtnBookDemo:hover::after {
-  margin-left: 0.2rem;
+.addArrow:hover::after {
+  margin-left: 1.2rem;
 }
-.eloomiBgImg img {
+.certificateImgs {
+  padding: 1rem 0;
+  display: flex;
+  gap: 2rem;
+}
+/* ------------------------- */
+
+/* Bg Img */
+.eloomiBgImg {
   position: absolute;
-  right: 0;
+  right: 30%;
+  bottom: 20%;
   transform: rotate(12deg);
-  height: 600px;
+  height: 60%; /* to change the bg images*/
+  z-index: -1;
 }
-
+.eloomiBgImgBig {
+  position: absolute;
+  height: 100%;
+}
+.eloomiBgImgSmall {
+  position: relative;
+  top: 45%;
+  left: 235%;
+  transition: translate(50%, 50%);
+  height: 38%;
+  z-index: 1;
+}
+/* ------------------------- */
 .waves {
   position: absolute;
-  bottom: 0;
+  bottom: -4%;
+  width: 120%;
+  left: 0%;
+  z-index: 1;
+  pointer-events: none;
 }
