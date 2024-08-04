@@ -90,6 +90,6 @@ nav.nav-change {
   color: white;
   font-size: medium;
   font-weight: 600;
-  text-shadow: 0 0 2px black;
+  text-shadow: 0 0 2px rgb(12, 36, 68);
   text-wrap: nowrap;
 }

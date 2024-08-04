@@ -1,15 +1,98 @@
-#eloomiVideo{
-    display: flex;
-    flex-direction: column;
+#eloomiVideo {
+  display: flex;
+  flex-direction: column;
 }
 
 .eloomiVideoWaves {
   width: 110%;
   left: 0;
   object-fit: fill;
-} 
+}
 .eloomiVideoContext {
-  height: 100lvh;
-  background: rgb(244,252,252);
+  min-height: 50lvh;
+  background: rgb(244, 252, 252);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
 
+.textContainer {
+  position: relative;
+}
+.eloomiVideoPlayer {
+  width: 100%;
+  max-width: 90vw;
+
+  position: relative;
+}
+
+.eloomiVideoBg {
+  border-radius: 2rem;
+  width: 100%;
+}
+
+.player--controls {
+  width: 100%;
+  flex-direction: row;
+  background-color: rgba(40, 190, 244, 0.951);
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  height: 2.3rem;
+  border-radius: 1.15rem;
+  padding: 0 0.8rem;
+  display: flex;
+  transition: all 0.1s ease-in;
+  opacity: 0;
+  gap: 0.5rem;
+  transform: translateY(-100%);
+}
+.eloomiVideoPlayer:hover .player--controls {
+  opacity: 1;
+}
+
+.progress {
+  width: 80%;
+  height: 2px;
+  background-color: white;
+}
+
+.player--button {
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.play--button {
+  transform-origin: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  border: 10px solid white;
+  background: linear-gradient(rgb(40, 190, 244), rgb(40, 81, 244));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: pulse infinite linear 2s;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.05;
+  }
+}
+
+.play--button-triangle {
+  transform: scale(2) rotate(90deg) translateY(-10%);
+  color: white;
+  -webkit-text-stroke: 0.3rem;
 }
