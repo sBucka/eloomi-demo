@@ -1,9 +1,9 @@
-.companies{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+#companies {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .companieImgs {
@@ -19,9 +19,10 @@
   height: 2rem;
 }
 
-.companies>span{
-    padding: 1rem;
-    color: rgb(132,149,164);
-    max-width: 75em;
-    text-wrap: pretty;
+#companies span {
+  padding: 1rem;
+  color: rgb(132, 149, 164);
+  max-width: 75em;
+  text-wrap: pretty;
+  font-weight: 600;
 }

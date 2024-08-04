@@ -10,7 +10,7 @@ import waveBg from "./../../assets/waveBg.svg";
 
 const Intro = () => {
   return (
-    <section className="intro">
+    <section id="intro">
       <div className="introduction">
         <div className="introductionContext">
           <div className="introBigText">

@@ -9,7 +9,7 @@ import company5 from "./../../assets/company5.png";
 import company6 from "./../../assets/company6.png";
 const Companies = () => {
   return (
-    <section class="companies">
+    <section id="companies">
       <div class="companieImgs">
         <img src={company1} alt="company" className="companieImg" />
         <img src={company2} alt="company" className="companieImg" />

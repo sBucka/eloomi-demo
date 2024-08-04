@@ -1,0 +1,15 @@
+#eloomiVideo{
+    display: flex;
+    flex-direction: column;
+}
+
+.eloomiVideoWaves {
+  width: 110%;
+  left: 0;
+  object-fit: fill;
+} 
+.eloomiVideoContext {
+  height: 100lvh;
+  background: rgb(244,252,252);
+
+}
