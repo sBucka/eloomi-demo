@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/eloomi-demo/static/css/main.028d90fc.css",
-    "main.js": "/eloomi-demo/static/js/main.52fc656a.js",
+    "main.css": "/eloomi-demo/static/css/main.004e66c2.css",
+    "main.js": "/eloomi-demo/static/js/main.688cd88d.js",
     "static/media/eloomiVideoBg.png": "/eloomi-demo/static/media/eloomiVideoBg.19b9364896777c013e60.png",
     "static/media/eloomiCoverImg.png": "/eloomi-demo/static/media/eloomiCoverImg.bca12f7e15995d304bc0.png",
     "static/media/card3.png": "/eloomi-demo/static/media/card3.5a235e383bb6846faeae.png",
@@ -12,14 +12,18 @@
     "static/media/company2.png": "/eloomi-demo/static/media/company2.ec86035dd9e1b8d86d1d.png",
     "static/media/company4.png": "/eloomi-demo/static/media/company4.9a871f3127c67fcc981c.png",
     "static/media/company6.png": "/eloomi-demo/static/media/company6.3bc693656c50b88d3ed1.png",
+    "static/media/lens.svg": "/eloomi-demo/static/media/lens.eb387aed84c4b8dfa6c5e473b1ed1bbf.svg",
+    "static/media/file.svg": "/eloomi-demo/static/media/file.ae475ae749054813c39590957e75793a.svg",
+    "static/media/diagram.svg": "/eloomi-demo/static/media/diagram.69ce74d7ec7b69564ff51f19ef1c5b52.svg",
+    "static/media/smile.svg": "/eloomi-demo/static/media/smile.b048fc2e6c2c63f39a7b2f1b6c11ad2c.svg",
     "index.html": "/eloomi-demo/index.html",
     "static/media/waveBg1.svg": "/eloomi-demo/static/media/waveBg1.0c1aa40edaef28cc7d8d8ea1fe73b446.svg",
     "static/media/waveBg.svg": "/eloomi-demo/static/media/waveBg.d9982609b6649cb649903cf540b904a9.svg",
-    "main.028d90fc.css.map": "/eloomi-demo/static/css/main.028d90fc.css.map",
-    "main.52fc656a.js.map": "/eloomi-demo/static/js/main.52fc656a.js.map"
+    "main.004e66c2.css.map": "/eloomi-demo/static/css/main.004e66c2.css.map",
+    "main.688cd88d.js.map": "/eloomi-demo/static/js/main.688cd88d.js.map"
   },
   "entrypoints": [
-    "static/css/main.028d90fc.css",
-    "static/js/main.52fc656a.js"
+    "static/css/main.004e66c2.css",
+    "static/js/main.688cd88d.js"
   ]
 }
