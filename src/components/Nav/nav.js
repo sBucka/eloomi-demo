@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./nav.css";
 import useScrollListener from "./../../hooks/useScroll";
+import { Button_bookDemo } from "components/CustomElements";
+
 
 const Nav = () => {
   // update classList of nav on scroll
@@ -44,7 +46,8 @@ const Nav = () => {
               Company<span className="arrow">&#62;</span>
             </li>
           </ul>
-          <button className="STYLEbtnBookDemo">Book a Demo</button>
+          <Button_bookDemo arrow={false}/>
+
         </div>
       </nav>
     </section>

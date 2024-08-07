@@ -7,6 +7,7 @@ import eloomiBgImg from "./../../assets/eloomiCoverImg.png";
 import someRandom from "./../../assets/someRandom.png";
 import waveBg from "./../../assets/waveBg.svg";
 
+import { Button_bookDemo, Button_spp } from "components/CustomElements";
 
 const Intro = () => {
   return (
@@ -25,8 +26,8 @@ const Intro = () => {
             training, develop people, and drive business success.
           </div>
           <div className="introButtons">
-            <button className="STYLEbtnBookDemo addArrow">Book a demo</button>
-            <button className="STYLEbtn btnPricing">See pricing plans</button>
+            <Button_bookDemo arrow={true} margin_left={true} />
+            <Button_spp></Button_spp>
           </div>
           <div className="certificateImgs">
             <img src={capterra} alt="capterra" />
@@ -38,9 +39,8 @@ const Intro = () => {
           <img src={eloomiBgImg} alt="eloomiBgImg" className="eloomiBgImgBig" />
           <img src={someRandom} alt="someRandom" className="eloomiBgImgSmall" />
         </div>
-      <img src={waveBg} alt="" className="waves" />
+        <img src={waveBg} alt="" className="waves" />
       </div>
-
 
     </section>
   );

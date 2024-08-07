@@ -1,0 +1,19 @@
+.devider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    max-width: 75em;
+    gap: 1rem;
+    > .devider-line {
+      height: 1px;
+      width: 100%;
+      background-color: rgb(145, 164, 186);
+    }
+    > .devider-text {
+      text-wrap: nowrap;
+      color: rgb(145, 164, 186);
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+  }

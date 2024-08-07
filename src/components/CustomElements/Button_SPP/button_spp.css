@@ -1,0 +1,13 @@
+.btn__spp {
+  background-color: rgba(173, 216, 230, 0.471);
+  border-radius: 2rem;
+  border: none;
+  padding: 0.8rem 1rem;
+  color: white;
+  font-size: x-large;
+  font-weight: 600;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.602);
+  text-wrap: nowrap;
+  cursor: pointer;
+}
+
