@@ -27,7 +27,7 @@ const Intro = () => {
           </div>
           <div className="introButtons">
             <Button_bookDemo arrow={true} margin_right={true} />
-            <Button_spp></Button_spp>
+            <Button_spp />
           </div>
           <div className="certificateImgs">
             <img src={capterra} alt="capterra" />
@@ -41,7 +41,6 @@ const Intro = () => {
         </div>
         <img src={waveBg} alt="" className="waves" />
       </div>
-
     </section>
   );
 };

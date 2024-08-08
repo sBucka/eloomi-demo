@@ -5,5 +5,7 @@
   flex-direction: column;
 }
 .solution_areas__context{
-    padding-top: 6rem;
+  display: grid;  
+  padding-top: 6rem;
+  gap: 2rem;
 }

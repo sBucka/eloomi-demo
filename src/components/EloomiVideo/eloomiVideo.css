@@ -97,7 +97,9 @@
 }
 
 .play--button-triangle {
-  transform: scale(2) rotate(90deg) translateY(-10%);
+  transform: rotate(90deg) translateY(-10%);
   color: white;
-  -webkit-text-stroke: clamp(4px, 1vmin , 10px);
+  -webkit-text-stroke: .79rem;
+  font-size: 2rem;
+
 }
