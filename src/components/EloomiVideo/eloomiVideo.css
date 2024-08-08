@@ -13,11 +13,16 @@
   background: rgb(244, 252, 252);
   display: flex;
   justify-content: center;
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
 }
 
 .textContainer {
   position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
 }
 .eloomiVideoPlayer {
   width: 100%;
@@ -69,10 +74,10 @@
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  width: 6rem;
-  height: 6rem;
+  width: 10vmin;
+  height: 10vmin;
   border-radius: 50%;
-  border: 10px solid white;
+  border: 1vmin solid white;
   background: linear-gradient(rgb(40, 190, 244), rgb(40, 81, 244));
   display: flex;
   justify-content: center;
@@ -94,5 +99,5 @@
 .play--button-triangle {
   transform: scale(2) rotate(90deg) translateY(-10%);
   color: white;
-  -webkit-text-stroke: 0.3rem;
+  -webkit-text-stroke: clamp(4px, 1vmin , 10px);
 }

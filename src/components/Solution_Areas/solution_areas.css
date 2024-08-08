@@ -1,0 +1,9 @@
+#solution_areas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.solution_areas__context{
+    padding-top: 6rem;
+}

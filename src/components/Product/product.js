@@ -1,6 +1,12 @@
 import React from "react";
 import "./product.css";
-import { Button_bookDemo, Divider, Button_spp } from "../CustomElements";
+
+import {
+  Button_bookDemo,
+  Divider,
+  Button_spp,
+  Section_text,
+} from "../CustomElements";
 
 import card1 from "./../../assets/card1.png";
 import card2 from "./../../assets/card2.png";
@@ -15,18 +21,20 @@ import diagramSvg from "./../../assets/diagram.svg";
 const Product = () => {
   return (
     <section id="product">
-      <div class="STYLE-section">
-        <span class="STYLE-section-heading-one">Product Areas</span>
-        <span class="STYLE-section-heading-two">
-          Effortlessly train and engage your people
-        </span>
-        <span class="STYLE-section-text">
-          eloomi helps you train every employee with efficiency. Activate
-          all-new learning paths, access curated training direct from our
-          content library, and tap into skills data for targeted upskilling.
-          Plus, connect learning and development with our fully supported
-          performance management suite.
-        </span>
+      <div class="product__context">
+        <Section_text>
+          <span>Product Areas</span>
+          <span>
+            Effortlessly train and engage your people
+          </span>
+          <span>
+            eloomi helps you train every employee with efficiency. Activate
+            all-new learning paths, access curated training direct from our
+            content library, and tap into skills data for targeted upskilling.
+            Plus, connect learning and development with our fully supported
+            performance management suite.
+          </span>
+        </Section_text>
         <div class="cards-colorful">
           <div class="card">
             <div class="card-context">
@@ -132,9 +140,9 @@ const Product = () => {
             </a>
           </div>
         </div>
-        <Divider>
-          <Button_bookDemo arrow={true}/>
-          <Button_spp></Button_spp>
+        <Divider text={false}>
+          <Button_bookDemo arrow={true} margin_right={true} />
+          <Button_spp gray={true}></Button_spp>
         </Divider>
       </div>
     </section>

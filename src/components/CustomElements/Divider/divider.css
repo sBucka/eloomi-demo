@@ -16,4 +16,9 @@
       font-size: 0.9rem;
       font-weight: 600;
     }
+    .divider_children{
+      display: flex;
+      gap: .5rem;
+      flex-direction: row;
+    }
   }

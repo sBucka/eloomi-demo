@@ -6,10 +6,10 @@
   );
   border-radius: 2rem;
   border: none;
-  padding: 0.8rem 1rem;
+  padding: 1.2rem;
   color: white;
-  font-size: x-large;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 700;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.602);
   text-wrap: nowrap;
   cursor: pointer;
@@ -24,3 +24,5 @@
 .btn__arrow_margin_left:hover::after {
   margin-left: 1.2rem;
 }
+
+

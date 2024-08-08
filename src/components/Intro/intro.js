@@ -26,7 +26,7 @@ const Intro = () => {
             training, develop people, and drive business success.
           </div>
           <div className="introButtons">
-            <Button_bookDemo arrow={true} margin_left={true} />
+            <Button_bookDemo arrow={true} margin_right={true} />
             <Button_spp></Button_spp>
           </div>
           <div className="certificateImgs">

@@ -1,13 +1,20 @@
 .btn__spp {
-  background-color: rgba(173, 216, 230, 0.471);
   border-radius: 2rem;
   border: none;
-  padding: 0.8rem 1rem;
+  padding: 1.2rem;
   color: white;
-  font-size: x-large;
-  font-weight: 600;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.602);
+  font-size: 1.1rem;
+  font-weight: 700;
   text-wrap: nowrap;
   cursor: pointer;
 }
 
+.btn__spp_blue {
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.602);
+  background-color: rgba(173, 216, 230, 0.471);
+}
+
+.btn__spp_grey {
+  background-color: rgba(246, 248, 249, 255);
+  color: rgba(142, 160, 175, 255);
+}
