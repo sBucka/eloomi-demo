@@ -25,7 +25,7 @@ const Product = () => {
         <Section_text>
           <span>Product Areas</span>
           <span>
-            Effortlessly train and engage your people
+            Effortlessly train and engage your <br /> people
           </span>
           <span>
             eloomi helps you train every employee with efficiency. Activate
