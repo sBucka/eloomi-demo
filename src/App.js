@@ -4,17 +4,11 @@ import EloomiVideo from "./components/EloomiVideo/eloomiVideo.js";
 import Intro from "./components/Intro/intro";
 import Nav from "./components/Nav/nav";
 import Product from "./components/Product/product.js";
+import { Routes } from "Routes"
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <Intro />
-      <Companies />
-      <EloomiVideo />
-      <Product />
-      <Solution_areas />
-    </div>
+    <Routes></Routes>
   );
 }
 
