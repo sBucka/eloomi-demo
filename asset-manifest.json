@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eloomi-demo/static/css/main.61e45dbe.css",
-    "main.js": "/eloomi-demo/static/js/main.ff6b91ee.js",
+    "main.js": "/eloomi-demo/static/js/main.084cdfa0.js",
     "static/media/eloomiVideoBg.png": "/eloomi-demo/static/media/eloomiVideoBg.19b9364896777c013e60.png",
     "static/media/eloomiCoverImg.png": "/eloomi-demo/static/media/eloomiCoverImg.bca12f7e15995d304bc0.png",
     "static/media/card3.png": "/eloomi-demo/static/media/card3.5a235e383bb6846faeae.png",
@@ -20,10 +20,10 @@
     "static/media/waveBg1.svg": "/eloomi-demo/static/media/waveBg1.0c1aa40edaef28cc7d8d8ea1fe73b446.svg",
     "static/media/waveBg.svg": "/eloomi-demo/static/media/waveBg.d9982609b6649cb649903cf540b904a9.svg",
     "main.61e45dbe.css.map": "/eloomi-demo/static/css/main.61e45dbe.css.map",
-    "main.ff6b91ee.js.map": "/eloomi-demo/static/js/main.ff6b91ee.js.map"
+    "main.084cdfa0.js.map": "/eloomi-demo/static/js/main.084cdfa0.js.map"
   },
   "entrypoints": [
     "static/css/main.61e45dbe.css",
-    "static/js/main.ff6b91ee.js"
+    "static/js/main.084cdfa0.js"
   ]
 }
