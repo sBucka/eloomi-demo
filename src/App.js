@@ -4,12 +4,10 @@ import EloomiVideo from "./components/EloomiVideo/eloomiVideo.js";
 import Intro from "./components/Intro/intro";
 import Nav from "./components/Nav/nav";
 import Product from "./components/Product/product.js";
-import { Routes } from "Routes"
+import MyRoutes from "Routes";
 
 function App() {
-  return (
-    <Routes></Routes>
-  );
+  return <MyRoutes></MyRoutes>;
 }
 
 export default App;

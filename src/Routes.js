@@ -1,30 +1,20 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  RouterProvider,
-} from "react-router-dom";
-import { EloomiPage } from "pages/EloomiPage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import EloomiPage from "pages/Home";
 import BookDemo from "pages/BookDemo";
 import NotFoundPage from "pages/NotFoundPage";
 
-const Routes = () => {
+const MyRoutes = () => {
   return (
     <Router>
-      <Switch>
-        <Route path="/">
-          <EloomiPage></EloomiPage>
-        </Route>
-        <Route>
-          <BookDemo path="/BookDemo"></BookDemo>
-        </Route>
-        <Route>
-          <NotFoundPage></NotFoundPage>
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path="/" element={<EloomiPage />} />
+        <Route path="/book-demo" element={<BookDemo></BookDemo>} />
+
+        <Route path="*" element={<NotFoundPage />}></Route>
+      </Routes>
     </Router>
   );
 };
 
-export default Routes;
+export default MyRoutes;
