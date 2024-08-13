@@ -1,5 +1,5 @@
 import React from "react";
-import "./grid_areas.css";
+import "./gridAreas.css";
 import smileSvg from "./../../../assets/smile.svg";
 
 const Grid_areas = ({ children }) => {

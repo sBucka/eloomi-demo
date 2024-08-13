@@ -1,5 +1,5 @@
 import React from "react";
-import "./section_text.css";
+import "./sectionText.css";
 /**
  * Takes 3 span elements and in order it styles them
  */

@@ -1,8 +1,8 @@
 import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import EloomiPage from "pages/Home";
-import BookDemo from "pages/BookDemo";
-import NotFoundPage from "pages/NotFoundPage";
+import EloomiPage from "pages/Home/Home";
+import BookDemo from "pages/BookDemo/BookDemo";
+import NotFoundPage from "pages/NotFoundPage/NotFoundPage";
 
 const MyRoutes = () => {
   return (

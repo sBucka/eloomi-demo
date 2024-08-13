@@ -1,5 +1,5 @@
 import React from "react";
-import "./solution_areas.css";
+import "./solutionAreas.css";
 
 import {
   Divider,
