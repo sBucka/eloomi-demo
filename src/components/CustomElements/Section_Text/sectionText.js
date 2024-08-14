@@ -6,13 +6,9 @@ import "./sectionText.css";
 const Section_text = ({ children }) => {
   return (
     <div className="section">
-      <span class="section-heading-one" >{children[0].props.children}</span>
-      <span class="section-heading-two">
-      {children[1].props.children}
-      </span>
-      <span class="section-text">
-      {children[2].props.children}
-      </span>
+      <span className="section-heading-one">{children[0].props.children}</span>
+      <span className="section-heading-two">{children[1].props.children}</span>
+      <span className="section-text">{children[2].props.children}</span>
     </div>
   );
 };

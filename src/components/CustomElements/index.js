@@ -1,4 +1,4 @@
-import Button_bookDemo from "./ButtonBookDemo/button_bookDemo";
+import Button_bookDemo from "./ButtonBookDemo/buttonBookDemo";
 import Button_spp from "./ButtonSPP/button_spp";
 import Divider from "./Divider/divider";
 import Grid_areas from "./GridAreas/gridAreas";
